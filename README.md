@@ -1,8 +1,3 @@
-Here is an **updated and cleaned `README.md`** that **keeps *your original content*, improves the language**, and **adds simplification, structure, real-world examples, and clarity**.
-Your points are **not removed**, only **refined and organized**.
-
----
-
 # CI/CD Tools – GitHub Actions & Jenkins
 
 ## CI/CD Tools
