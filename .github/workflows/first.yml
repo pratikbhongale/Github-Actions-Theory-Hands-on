@@ -11,3 +11,10 @@ jobs:
     - name: Build
       run: |
           echo "Build Step!!"
+ test:
+    runs-on: ubuntu-latest
+    steps:
+     - uses: actions/checkout@v2
+     - name: Testing
+       run: |
+           echo "Test Cases running...."
