@@ -1,4 +1,4 @@
-name: Hello World
+name: multiple shell command in single steps.
 on: workflow_dispatch
 jobs:
   hello:
