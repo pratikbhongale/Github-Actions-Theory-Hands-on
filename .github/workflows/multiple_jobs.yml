@@ -1,0 +1,18 @@
+name: Create multiple jobs in a single workflows
+on: workflow_dispatch
+jobs:
+  build:
+   runs-on: ubuntu-latest
+   steps:
+    - name: Build Step
+      run: echo "Building a job"
+  tests:
+   runs-on: ubuntu-latest
+   steps:
+   - name: Testing Step
+     run: echo "Running test cases.."
+  Deploy:
+   runs-on: ubuntu-latest
+   steps:
+    - name: Deploying a Job
+      run: echo "Deploying a Job"
