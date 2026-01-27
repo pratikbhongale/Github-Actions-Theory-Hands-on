@@ -7,10 +7,10 @@ jobs:
     - name: Build Demo
       run: echo "Hello build"
   test:
-   needs: build
    runs-on: ubuntu-latest
+   needs: build
    steps:
-    - name: executing test cases
-      run: test cases running....
+   - name: executing test cases
+     run: test cases running....
 
 
