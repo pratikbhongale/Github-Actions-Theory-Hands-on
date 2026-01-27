@@ -1,0 +1,9 @@
+name: Push and pull event
+on: push
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Build Demo
+      run: echo "Hello build"
+
